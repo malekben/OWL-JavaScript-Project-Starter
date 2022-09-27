@@ -5,7 +5,6 @@ import { Home } from "./pages/Home";
 
 const APP_TEMPLATE = tags.xml/*xml*/ `
 <main>
-  // <Navbar/>
   <Home/>
   <Footer/>
 </main>
