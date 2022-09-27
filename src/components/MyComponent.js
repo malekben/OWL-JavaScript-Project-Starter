@@ -2,7 +2,7 @@ import { Component, useState, tags } from "@odoo/owl";
 
 const MY_COMPONENT_TEMPLATE = tags.xml/*xml*/ `
 <span t-name="MyComponent" class="" t-on-click="update">
-  Hello <t t-esc="state.text"/>
+  Hello Malek<t t-esc="state.text"/>
 </span>
 `;
 
